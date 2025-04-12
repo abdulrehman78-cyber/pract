@@ -1,0 +1,94 @@
+<!-- Creating FOrm -->
+<html>
+
+<head></head>
+
+<body style="background-color: darkslateblue; color: rgb(254, 254, 254);">
+    <form action="back.php">
+        <h1>Register</h1>
+        <div>
+        <label for="username">First Name:</label>
+        <input type="text" placeholder="John" required>
+        </div>
+        <br>
+        <div>
+        <label for="username">Last Name:</label>
+        <input type="text" placeholder="smith" required >
+        </div>
+        <br>
+        <div>
+            <label for="birth">Birth:</label>
+            <input type="date" id="birth" name="birth" required>
+        </div>
+        <br>
+        <div>
+            <label for="country">Country:</label>
+            <select name="country" id="country">Country
+                <option value="">Select a country</option>
+                <option value="America">America</option>
+                <option value="UK">UK</option>
+                <option value="Canada">Canada</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label >Interest:</label>
+            <input type="checkbox" id="interest" value="Sports" name="interest">Sports
+            <input type="checkbox" id="interest" value="Music" name="interest">Music
+            <input type="checkbox" id="interest" value="Travel" name="interest">Travel
+        </div>
+        <br>
+        <div>
+            <label for="profile">Profile</label>
+            <input type="file" accept="image/*" name="profile">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender:      
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other" value="other">
+        </label>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="enter your email" id="email" name="email" required pattern="@.com" >
+        </div>
+        <br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="enter your password" id="password" name="password" minlength="6" maxlength="15" required>
+        </div>
+        <br>
+        <div>
+            <label for="subject">Subject:</label>
+            <select name="subject" id="subject" required>
+                <option value="Computer">Computer</option>
+                <option value="Math">Math</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>
+         I agree to the terms and conditions<input type="checkbox">
+        </label>
+        </div>
+        <br>
+        <div>
+            <input type="button" value="Submit" required>
+          <input type="reset" value="reset" >
+        </div>
+        <br>
+        <div>
+            <label for="feedback">Bio</label>
+            <br>
+            <textarea name="bio" id="feedback" cols="30" rows="5" placeholder="Tell us about yourself"></textarea>
+        </div>
+    </form>
+</body>
+
+</html>
