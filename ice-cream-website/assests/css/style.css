@@ -1,0 +1,14 @@
+.bg-img{
+    background-image: url("..//images/ice-back.png");
+    background-size: cover;
+    height: 100vh;
+}
+.left-side{
+    height: 65vh;
+    padding-left: 200px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+}

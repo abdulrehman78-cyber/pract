@@ -1,0 +1,21 @@
+body{
+    font-family: "Poppins";
+    color: #ffffff
+}
+.bg-color{
+    background: linear-gradient(to right,#FFAF68,#FFCDA2);
+}
+.first-row{
+    padding-left:180px ;
+}
+.main-burger{
+    /* background-color: red; */
+}
+.row-3{
+    background-color: #F47200;
+}
+.order_tracking{
+    color: #FFAF68;
+    background-color: white;
+    border-radius: 15px;
+}

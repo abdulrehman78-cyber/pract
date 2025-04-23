@@ -1,0 +1,76 @@
+/* body{
+    font-family: "Inter";
+}
+.bg-img{
+    background-image: url("../images/restoback.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    font-size: 4.2rem;
+   color: rgba(255, 255, 255, 0.7);
+}
+.left-side{
+    height: 75vh;
+}
+.location-btn{
+    border-top-left-radius:4rem;
+    border-bottom-left-radius: 4rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.search-btn{
+    background-color: #C97303;
+    width: 35px;
+    height: 35px;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-product{
+    background-color: rgba(255,255,255,0.1);
+    height: 25vh;
+    backdrop-filter: blur(5px);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+} */
+body{
+    color: aliceblue;
+    font-family: "Inter";
+}
+.h1{
+    font-weight: 900;
+    font-size: 4.2rem;
+   color: rgba(255, 255, 255, 0.7);
+}
+.bg-img{
+    background-image: url("..//images/restoback.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.left-side{
+    height: 75vh;
+}
+.location-btn{
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.search-btn{
+    background-color: #C97303;
+    width: 35px;
+    height: 35px;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-product{
+    background-color: rgba(255,255,255,0.1);
+    height: 25vh;
+    backdrop-filter: blur(5px);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+} 
