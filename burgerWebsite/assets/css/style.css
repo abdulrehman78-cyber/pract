@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Extra";
+    src: url("..//fonts/Poppins/Poppins-ExtraBold.ttf");
+}
+body{
+    font-family: "Extra";
+}
+.bg-color{
+    background: linear-gradient(to right,#FFCDA2,#FFAF68);
+}
+
+.text{
+    padding-bottom: 10rem;
+    padding-left: 9rem;
+    color: rgb(255, 255, 255);
+    font-family: "Extra";
+}
+.text2{
+   padding-top: 12rem;
+   padding-left: 10rem;
+    color: rgb(255, 255, 255);
+    font-family: "Extra";
+    
+}
+.h1{
+    font-size: 5.5rem;
+}
+.btn{
+    color: #FF7A04;
+    border-radius: 1.5rem;   
+}
+.row3-color{
+    background-color: #FF7A04;
+}
+.whoWeAre{
+    padding-top: 19rem;
+}
+.person-img{
+    padding-left: 11rem;
+}
+
